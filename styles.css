@@ -1,0 +1,128 @@
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a ambos lados */
+    max-width: 500px; /* Limita el ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px;
+}
+
+
+
+/* Estilo para el contenedor del mapa */
+#map-container {
+    flex: 1; /* El contenedor del mapa ocupa 1 parte del ancho disponible */
+    position: relative;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* Estilo para el mapa */
+#map {
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+body {
+    font-family: Arial;
+    background-image: url('imagen_fondo.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('imagen_del_zoo.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container {
+    background-color: #14c932;
+    padding: 15px 0;
+    border-bottom-right-radius: 80% 20px;
+    border-bottom-left-radius: 50% 20px ;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 80px;
+}
+
+main {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+/* Estilo para el formulario */
+form {
+    flex: 1;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-right: 20px;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #1dac0d;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #65d670;
+}
+
+footer {
+    background-color: #14c932; 
+    color: #ffffff; 
+    padding: 0.1px; 
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px; 
+    padding: 3px;
+    margin: 2px 0; 
+}
+
+
